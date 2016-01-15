@@ -13,7 +13,7 @@
     "requireOperatorBeforeLineBreak": true,
     "requireCamelCaseOrUpperCaseIdentifiers": true,
     "maximumLineLength": {
-      "value": 200,
+      "value": 100,
       "allowComments": true,
       "allowRegex": true
     },
@@ -48,10 +48,12 @@
     "requireSpaceAfterBinaryOperators": true,
     "requireSpacesInConditionalExpression": true,
     "requireSpaceBeforeBlockStatements": true,
+    "requireLineFeedAtFileEnd": true,
     "disallowSpacesInsideObjectBrackets": "all",
     "disallowSpacesInsideArrayBrackets": "all",
     "disallowSpacesInsideParentheses": true,
 
+ 
     "disallowMultipleLineBreaks": true,
 
     "disallowCommaBeforeLineBreak": null,
