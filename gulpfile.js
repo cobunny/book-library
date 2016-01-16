@@ -33,7 +33,7 @@ gulp.task('inject', function () {
     };
 
     return gulp
-        .src('./src/views/*.html')
+        .src('./src/views/*.ejs')
         .pipe(wiredep(options))
         .pipe(inject(injectSrc, injectOptions))
         .pipe(gulp.dest('./src/views'));
