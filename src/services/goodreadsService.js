@@ -7,8 +7,9 @@ var goodreadsService = function () {
     var getBookById = function (id, cb) {
 
         var options = {
-            host: 'www.goodreads.com',
-            path: '/book/show/' + id + '?format=xml&key=WTKwpiUBUogT9cpyHFKcA'
+            //Add any service you want to request the data from and set the path.
+           // host: e.g. 'www.goodreads.com',
+            //path: '/book/show/' + id + '?format=xml&key=GoodReads API Key'
         };
         var callback = function (response) {
             var str = '';
